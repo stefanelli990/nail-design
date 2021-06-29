@@ -4,7 +4,18 @@
     box-sizing: border-box;
     font-family: 'Cormorant', serif;
     letter-spacing: 1px;
-    
+}
+
+html {
+    font-size: 0.9rem;
+    @include sm {
+        font-size: 1rem;
+    }
+}
+
+body {
+    background-color: $light;
+    color: $dark;
 }
 
 li {

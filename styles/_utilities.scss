@@ -1,0 +1,17 @@
+.logo {
+    width: 12rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    background-color: $primary;
+    color: $light;
+    border: 1px solid $primary;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: transparent;
+        color: $primary;
+    }
+}

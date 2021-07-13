@@ -71,7 +71,7 @@ p {
 }
 
 .logo {
-  width: 12rem;
+  width: 10rem;
 }
 
 .btn {
@@ -106,7 +106,6 @@ p {
   .navbar {
     -webkit-box-shadow: unset;
             box-shadow: unset;
-    background-color: transparent;
   }
 }
 

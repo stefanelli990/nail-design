@@ -19,7 +19,7 @@
 
     @include sm {
         box-shadow: unset;
-        background-color: transparent;
+        
     }
     .container {
         @include container(1rem, 1200px);
